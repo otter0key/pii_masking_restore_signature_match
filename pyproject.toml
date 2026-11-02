@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "otter0key-ocrmdoc_jd348"
+name = "otter0key-pii_masking_restore_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别OCR 文档理解工程师·敏感信息的脱敏与回填的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://otter0key.github.io"
-Repository = "https://github.com/otter0key/ocrmdoc_jd348"
-Issues = "https://github.com/otter0key/ocrmdoc_jd348/issues"
+Repository = "https://github.com/otter0key/pii_masking_restore_signature_match"
+Issues = "https://github.com/otter0key/pii_masking_restore_signature_match/issues"
 
 [project.scripts]
-ocrmdoc_jd348 = "ocrmdoc_jd348:main"
+pii_masking_restore_signature_match = "pii_masking_restore_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["ocrmdoc_jd348"]
+py-modules = ["pii_masking_restore_signature_match"]

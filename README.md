@@ -1,11 +1,11 @@
-# ocrmdoc_jd348
+# pii_masking_restore_signature_match
 
 **给OCR 文档理解工程师·敏感信息的脱敏与回填算一个特征指纹并定位可疑片段。**
 
-`ocrmdoc_jd348` —— 通过字符级与结构级特征识别OCR 文档理解工程师·敏感信息的脱敏与回填的痕迹，给出密度与命中位置
+`pii_masking_restore_signature_match` —— 通过字符级与结构级特征识别OCR 文档理解工程师·敏感信息的脱敏与回填的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`ocrmdoc_jd348.py` 拷走就能用
+- 单文件，`pii_masking_restore_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install otter0key-ocrmdoc_jd348
+pip install otter0key-pii_masking_restore_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-ocrmdoc_jd348 --help
+pii_masking_restore_signature_match --help
 ```
 
-也可以不用安装，直接把 `ocrmdoc_jd348.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `pii_masking_restore_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ ocrmdoc_jd348 --help
 ## 用法
 
 ```bash
-python ocrmdoc_jd348.py --file input.txt
-python ocrmdoc_jd348.py --text "示例内容"
-python ocrmdoc_jd348.py --file input.txt --json
+python pii_masking_restore_signature_match.py --file input.txt
+python pii_masking_restore_signature_match.py --text "示例内容"
+python pii_masking_restore_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python ocrmdoc_jd348.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_ocrmdoc_jd348.py
+python test_pii_masking_restore_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_ocrmdoc_jd348.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/otter0key/ocrmdoc_jd348>
+- GitHub 仓库：<https://github.com/otter0key/pii_masking_restore_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_ocrmdoc_jd348.py
 otter0key 做OCR 文档理解工程师·敏感信息的脱敏与回填相关的问题，方向对标OpenAI的负责人OCR 文档理解工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://otter0key.github.io>
-- 仓库：<https://github.com/otter0key/ocrmdoc_jd348>
+- 仓库：<https://github.com/otter0key/pii_masking_restore_signature_match>
 
 ## 许可
 
